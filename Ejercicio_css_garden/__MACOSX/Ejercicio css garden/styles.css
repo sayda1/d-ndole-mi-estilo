@@ -1,16 +1,16 @@
 
 body {
-    background-image: url(http://imagenesfotos.com/wp-content/2010/07/neon-96.jpg);
-    background-size:contain; 
-    
+    background-image: url(img/neon-96.jpg); 
+    background-repeat:repeat; 
+    background-attachment: fixed;
 }
 header {
-    background-color:#27D0C8;
-    color:#DF741D;
+    color:#FE2EC8;
     text-align: center;
 }
 header h1{
-    font-size: 80px;
+
+    font-size:10em;
     font-family: bodoni MT;
 }
 header h2{
@@ -20,7 +20,7 @@ header h2{
 .summary{
     text-align: center;
     font-size: 45px;
-    color: blueviolet
+    color: blueviolet;
 }
 .preamble{
     text-align: right;
@@ -75,11 +75,32 @@ header h2{
     color:beige;
     width: 70em;
     height: 60em;
-}
-.footer{
-    font-family: monospace;
-    font-size: 63px;
     
 }
+.requirements h3{
+    color:aqua;
+    font-size: 30px;
+}
+footer{
+    font-family:bodoni MT;
+    font-size: 60px;
+    width: 5em;
+    height: 11em; 
+    }
 
+.sidebar{
+    font-family: bodoni MT;
+    color:beige;
+    font-size: 35px;
+    width: 30em;
+    margin-left: 200px;
+    
+}
+.sidebar h3{
+    color:aqua;  
+}
+
+.sidebar ul li {
+    list-style: none;
+}
 
