@@ -1,0 +1,85 @@
+
+body {
+    background-image: url(http://imagenesfotos.com/wp-content/2010/07/neon-96.jpg);
+    background-size:contain; 
+    
+}
+header {
+    background-color:#27D0C8;
+    color:#DF741D;
+    text-align: center;
+}
+header h1{
+    font-size: 80px;
+    font-family: bodoni MT;
+}
+header h2{
+    font-size: 60px;
+    font-family: bodoni MT;
+}
+.summary{
+    text-align: center;
+    font-size: 45px;
+    color: blueviolet
+}
+.preamble{
+    text-align: right;
+    font-size:  30px;
+    color:darkmagenta;
+}
+.preamble h3{
+    font-family: bodoni MT;
+    text-align:center;
+    font-size: 40px;
+    color: darkblue
+}
+.main {
+    display: flex;
+}
+.explanation{
+ color:bisque;
+    width:75em;
+    height:30em;
+    font-size: 25px;
+    
+}
+.explanation h3{
+    color:aqua;
+    font-size: 30px    
+}
+.participation{
+    font-family: monospace;
+    color: bisque;
+    height:50em;
+    width: 70em;
+    font-size: 22px
+}
+.participation h3{
+    font-size: 30px;
+    color:aqua;    
+}
+.benefits{
+    font-family: monospace;
+    color: beige;
+    font-size: 22px;
+    width: 70em;
+    height: 30em 
+}
+.benefits h3{
+    color:aqua;
+    font-size: 30px    
+}
+.requirements{
+    font-family: monospace;
+    font-size: 22px;
+    color:beige;
+    width: 70em;
+    height: 60em;
+}
+.footer{
+    font-family: monospace;
+    font-size: 63px;
+    
+}
+
+
