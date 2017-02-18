@@ -1,0 +1,49 @@
+
+body {
+    background-image: url(../img/neon-96.jpg); 
+    background-repeat:repeat; 
+    background-attachment: fixed;
+    font-family: bodoni MT;
+    color: white;
+}
+section{
+    text-align: center;
+    font-size: 25px;
+}
+header h1 , h2 , h3{
+    font-size:40px;
+    color:#FE2EC8;
+}
+
+.main {
+    display: flex;
+    font-size: 20px;
+}
+
+.main h3{
+    font-size: 25px ;
+    text-align: center;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
+    color:aqua;
+}
+
+aside .wrapper{
+   display: flex;
+}
+.wrapper h3{
+    text-align: center;
+}
+.wrapper ul li {
+    text-align: center;
+    list-style: none;
+    color: blue;
+    font-size: 20px;
+}
+.wrapper ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
